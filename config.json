@@ -1,0 +1,41 @@
+﻿{
+	"id": "com.tranapps.millgrab",
+	"version": "1.0",
+	"name": "Millionaire Grab",
+	"description": "Approach the sharp guillotine to earn millions of dollars! Put your hand under the blade to get US dollars. The goal is to reach millionaire status without losing its members. Enhance your reflexes, and be brave to beat the clever cutting standards!",
+	"author": "Trans Apps DH",
+	"email": "needthatdoe@gmail.com",
+	"website": "https://www.facebook.com",
+	"fullscreen": "true",
+	"useragent": null,
+	"orientation": "landscape",
+	"icons": [{
+		"src": "www/icon-256.png",
+		"width": 256,
+		"height": 256,
+		"density": "xxxhdpi"
+	}, {
+		"src": "www/icon-128.png",
+		"width": 128,
+		"height": 128,
+		"density": "xhdpi"
+	}],
+	"plugins": [
+		{ "id": "cordova-custom-config", "version": null },
+		{ "id": "cordova-plugin-ad-admob", "version": null },
+		{ "id": "cordova-plugin-file", "version": null },
+		{ "id": "cordova-plugin-inappbrowser", "version": null },
+		{ "id": "cordova-plugin-statusbar", "version": null },
+		{ "id": "cordova-plugin-whitelist", "version": null },
+		{ "id": "cordova-plugin-wkwebview-engine", "version": null }
+	],
+	"android": {
+		"min": 21,
+		"target": 26,
+		"plugins": []
+	},
+	"ios": {
+		"target": "10.0",
+		"plugins": []
+	}
+}
